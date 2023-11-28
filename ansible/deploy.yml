@@ -27,7 +27,7 @@
       git:
         repo: "{{ repo }}"
         dest: "{{ repo_dir }}"
-        version: v1.1
+        version: v1.2
 
     - name: copy systemd config
       copy:
